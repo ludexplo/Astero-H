@@ -1,0 +1,238 @@
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        scroll-behavior: smooth;
+
+
+    }
+
+ 
+
+    /* Astero-h */
+    #logotest
+    {
+        position: relative;
+        height: 600px;
+    }
+
+  
+/*video de fond du site */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1; /*pour que ça passe en dessous */
+    }
+
+
+/* les différents réseaux (youtube,spotify,deezer) */
+.reseaux{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+}
+
+/*pour pas que le contenu passe en dessous de la barre de navigation */
+.margin-top{
+    position: relative;
+    margin-top: 80px;
+}
+
+/*date de la tournée 2022 */
+.tournee{
+    position: relative;
+    width: 500px;
+}
+
+
+.date{
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.brd{
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    box-shadow: 12px 12px 12px 12px  #0048ff33;
+}
+
+/* pour que le texte soit visible */
+p{
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+
+
+.fuzzyEpisode{
+    position: relative;
+    width: 300px;
+    right: 500px;
+    bottom: 250px;
+}
+
+.Episode{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+
+
+/* faire en sorte de pouvoir écrire du texte sur les images */
+.contenant {
+    position: relative;
+    text-align: center;
+  }
+  
+
+
+
+  /*pour que les image soit en ligne */
+  .alignement-image{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+  .fuzzy{
+    position: relative;
+    right: 400%;
+    height: 250px;
+  }
+
+
+
+  .barreTron{
+      position: relative;
+      width: 1000px;
+  }
+      /* Nos mémoires */
+      .memoire{
+          position: relative;
+          margin-top: 50px;
+          width: 500px;
+      }
+      .cadreTron{
+          position: relative;
+          left: 20px;
+          width: 400px;
+      }
+      
+      .cadreTronZed{
+        position: relative;
+        left: 15px;
+        width: 400px;
+    }
+
+      .cadreTronFuzzy{
+        position: relative;
+        left: 20px;
+        height: 250px;
+    }
+            /* cadre histoire */
+      .histoire{
+          position:relative;
+          width: 800px;
+          right: 500px;
+        }
+
+        .texte_centrer{
+            font-size: 24px;
+        }
+
+        #tournee-text{
+            font-size: 40px;
+        }
+
+        .imgA1 {
+            z-index: 1;
+          }
+          .imgB1 {
+            z-index: 3;
+          }
+
+
+
+/*responsive design*/
+@media  screen and (max-width : 1700px){
+    /*logo astero-h*/
+    #logotest
+    {
+        position: relative;
+        height: 150px;
+    }
+
+    /*barreTron sur la page histoire */
+    .barreTron{
+        position: relative;
+        width: 450px;
+    }
+
+    .memoire{
+        position: relative;
+        margin-top: 55px;
+        width: 300px;
+    }
+    .cadreTron{
+        position: relative;
+        left: 30px;
+        width: 150px;
+    }
+
+      /* cadre histoire */
+  .histoire{
+    position:relative;
+    width: 500px;
+    right:  150px;
+  }
+  .date{
+  width: 90%;
+}
+.tournee{
+    width: 50%;
+}
+
+.fuzzyEpisode{
+    position: relative;
+    width: 150px;
+
+    right: 0;
+}
+
+.cadreTronFuzzy{
+    position: relative;
+    left:50%;
+    height: 150px;
+}
+.fuzzy{
+    right: 250%;
+  }
+
+
+ 
+}
+
+
+   
+       
