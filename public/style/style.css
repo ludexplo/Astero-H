@@ -73,6 +73,15 @@
     box-shadow: 12px 12px 12px 12px  #0048ff33;
 }
 
+.bordureHistoire{
+    background-color:#606060;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    padding: 1em;
+   
+}
+
 /* pour que le texte soit visible */
 p{
     text-shadow: 1px 1px 2px black;
@@ -98,7 +107,7 @@ p{
 
 
 
-/* faire en sorte de pouvoir écrire du texte sur les images */
+/* pour centrer des images */
 .contenant {
     position: relative;
     text-align: center;
@@ -117,7 +126,7 @@ p{
 
   .fuzzy{
     position: relative;
-    right: 400%;
+    right: 270%;
     height: 250px;
   }
 
@@ -141,20 +150,27 @@ p{
       
       .cadreTronZed{
         position: relative;
-        left: 15px;
-        width: 400px;
+        left: 400px;
+        height: 250px;
     }
 
       .cadreTronFuzzy{
         position: relative;
-        left: 20px;
+        left: 450px;
+        height:250px;
+    }
+
+    .Gorgar{
+        position: relative;
         height: 250px;
+        bottom: 250px;
+        left: 590px;
     }
             /* cadre histoire */
       .histoire{
           position:relative;
           width: 800px;
-          right: 500px;
+          right: 400px;
         }
 
         .texte_centrer{
@@ -165,12 +181,33 @@ p{
             font-size: 40px;
         }
 
-        .imgA1 {
-            z-index: 1;
-          }
-          .imgB1 {
-            z-index: 3;
-          }
+        .remonte{
+            position: relative;
+            bottom: 250px;
+        }
+
+        #genese{
+            position: relative;
+            bottom: 250px;
+            left: 450px;
+            
+        }
+        
+        #lienGenese{
+            position: relative;
+            right: 125px;
+            background-color: black;
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+        }
+
+.GorgarHistoire{
+    position: relative;
+    width: 600px;
+    bottom: 255px;
+    left: 450px;
+}
 
 
 
@@ -182,6 +219,7 @@ p{
         position: relative;
         height: 150px;
     }
+    
 
     /*barreTron sur la page histoire */
     .barreTron{
@@ -213,6 +251,7 @@ p{
     width: 50%;
 }
 
+
 .fuzzyEpisode{
     position: relative;
     width: 150px;
@@ -229,6 +268,11 @@ p{
     right: 250%;
   }
 
+  .GorgarHistoire{
+    position: relative;
+    left: 0;
+    width: 500px;
+}
 
  
 }
