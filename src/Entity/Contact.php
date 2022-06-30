@@ -13,8 +13,6 @@ class Contact
     #[ORM\Column(type: 'integer')]
     private $id;
 
-    #[ORM\Column(type: 'string', length: 255)]
-    private $Nom;
 
     #[ORM\Column(type: 'string', length: 255)]
     private $email;
@@ -30,17 +28,7 @@ class Contact
         return $this->id;
     }
 
-    public function getNom(): ?string
-    {
-        return $this->Nom;
-    }
 
-    public function setNom(string $Nom): self
-    {
-        $this->Nom = $Nom;
-
-        return $this;
-    }
 
     public function getEmail(): ?string
     {

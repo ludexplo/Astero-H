@@ -20,7 +20,6 @@ class ContactController extends AbstractController
     {
         $contact = new Contact();
         $form = $this->createFormBuilder($contact)
-            ->add('nom')
             ->add('email',EmailType::class)
             ->add('sujet')
             ->add('message')
@@ -35,7 +34,7 @@ class ContactController extends AbstractController
                 //Email
                 $email = (new Email())
                 ->from($contact->getEmail())
-                ->to('admin@admin.com')
+                ->to('zed@astero-h.com')
                 ->subject($contact->getSujet())
                 ->html($contact->getMessage());
     

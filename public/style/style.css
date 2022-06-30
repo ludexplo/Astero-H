@@ -49,6 +49,7 @@
 }
 .container {
     display: flex;
+    width: 300px;
 }
 
 /*pour pas que le contenu passe en dessous de la barre de navigation */
