@@ -224,6 +224,11 @@ p{
     left: 30%;
 }
 
+.navbar-nav > li{
+    margin-left:70px;
+    margin-right:70px;
+  }
+
 /*responsive design*/
 @media  screen and (max-width : 1700px){
     /*logo astero-h*/
