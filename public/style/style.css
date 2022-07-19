@@ -2,8 +2,7 @@
         margin: 0;
         padding: 0;
         border: 0;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: 'Kdam Thmor Pro', sans-serif; /*police kdam thmor Pro pour tous le site */
         font-size: 18px;
         font-weight: normal;
         font-style: normal;
@@ -28,8 +27,8 @@
     }
 
   
-/*video de fond du site */
-#background-video {
+/*image de fond du site */
+#imageDeFond {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
