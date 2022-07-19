@@ -12,7 +12,17 @@
 
 
     }
-
+    #boutton{
+        position:relative;
+        background-color: blue;
+        text-decoration: none;
+        color: #fff;
+    }
+    .boutton-top{
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
  #formulaire{
     position: relative;
     width: 500px;
@@ -129,18 +139,27 @@ p{
   }
 
 
-
-  .fuzzy{
+  /*fuzzy histoire */
+  #fuzzy{
     position: relative;
-    right: 270%;
-    height: 250px;
+    height: 350px;
+   
   }
 
+  #cadreTronFuzzyHistoire{
+    position: relative;
+    width: 350px;
+  }
 
 
   .barreTron{
       position: relative;
       width: 1000px;
+  }
+  /*episode */
+  .episode{
+    position: relative;
+    width: 400px;
   }
       /* Nos mémoires */
       .memoire{
@@ -154,10 +173,9 @@ p{
           width: 400px;
       }
       
-      .cadreTronZed{
+      #cadreTronZed{
         position: relative;
-        left: 400px;
-        height: 250px;
+        height: 350px;
     }
 
       .cadreTronFuzzy{
@@ -166,17 +184,22 @@ p{
         height:250px;
     }
 
-    .Gorgar{
+    #Gorgar{
         position: relative;
-        height: 250px;
-        bottom: 250px;
-        left: 590px;
+        height: 350px;
+  
+    }
+
+    #GorgarHistoire{
+        position: relative;
+        height: 350px;
+  
     }
             /* cadre histoire */
       .histoire{
           position:relative;
-          width: 800px;
-          right: 400px;
+          width: 700px;
+       
         }
 
         .texte_centrer{
@@ -189,12 +212,7 @@ p{
             bottom: 250px;
         }
 
-        #genese{
-            position: relative;
-            bottom: 250px;
-            left: 450px;
-            
-        }
+ 
         
         #lienGenese{
             position: relative;
@@ -257,8 +275,8 @@ p{
       /* cadre histoire */
   .histoire{
     position:relative;
-    width: 500px;
-    right:  150px;
+    width: 350px;
+ 
   }
   .date{
   width: 90%;
@@ -280,14 +298,21 @@ p{
     left:50%;
     height: 150px;
 }
-.fuzzy{
-    right: 250%;
+#fuzzy{
+    position: relative;
+    height: 350px;
   }
 
-  .GorgarHistoire{
+  #GorgarHistoire{
     position: relative;
-    left: 0;
-    width: 500px;
+    height: 150px;
+}
+
+
+#genese{
+    position: relative;
+    height: 200px;
+    
 }
 
  
